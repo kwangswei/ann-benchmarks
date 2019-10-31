@@ -18,6 +18,7 @@ env:
   - LIBRARY=nearpy DATASET=random-xs-20-angular
   - LIBRARY=ngt DATASET=random-xs-20-angular
   - LIBRARY=nmslib DATASET=random-xs-20-angular
+  - LIBRARY=n2 DATASET=random-xs-20-angular
   - LIBRARY=hnswlib DATASET=random-xs-20-angular
   - LIBRARY=panns DATASET=random-xs-20-angular
   - LIBRARY=puffinn DATASET=random-xs-20-angular

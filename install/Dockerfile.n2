@@ -1,0 +1,9 @@
+FROM ann-benchmarks
+
+RUN apt-get install -y python-setuptools python-pip
+RUN pip3 install cython setuptools
+RUN git clone  --recurse-submodules https://github.com/kakao/n2.git
+RUN cd n2; python3 setup.py install
+
+RUN python3 -c 'import n2'
+
